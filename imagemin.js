@@ -2,8 +2,8 @@ const imagemin = require('imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageminWebp = require('imagemin-webp');
 
-const PNGImages = 'original/*.png';
-const JPEGImages = 'original/*.jpg';
+const PNGImages = 'original/**/*.png';
+const JPEGImages = 'original/**/*.jpg';
 
 
 // (async () => {
